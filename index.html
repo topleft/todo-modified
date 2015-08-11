@@ -4,9 +4,6 @@
 		<meta charset="utf-8">
 		<title>Todo List</title>
 		<link rel="stylesheet" href="todos.css">
-		<script type="text/javascript" src="jquery-2.1.4.min.js"></script>
-		<script type="text/javascript" src="app.js">
-		</script>
 	</head>
 
 	<body>
@@ -14,11 +11,13 @@
 
 		<form>
 			<input id='listItem' type='text' name='what do i need to do?' value='' placeholder='What do you need to do?'>
-			<input id='add_todo' type='submit' value='add'>
+			<input id='add-todo' type='submit' value='add'>
 		</form>
 
-		<ul>
+		<ul id="listItems">
 		</ul>
+		<script type="text/javascript" src="jQuery/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="app.js"></script>
 
 	</body>
 </html>
